@@ -1,5 +1,5 @@
 public class Metodos {
-    // Void significa que não haverá um retorno
+    // Void significa que não haverá um retorno | "static" significa que o método pode ser chamado sem a necessidade de criar um objeto, contrário ao método "public"
     static void MetodoSemRetorno(String Texto, int Numero) {
         System.out.println(Texto + Numero);
     }
